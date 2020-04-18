@@ -72,7 +72,7 @@ def movies_lang(dataset, index_, lang_):
     """
     movies_ = []
 
-    for movie in movies:
+    for movie in dataset:
         lang = movie[index_]
         if lang == lang_:
             movies_.append(movie)
